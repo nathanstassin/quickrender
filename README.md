@@ -1,67 +1,92 @@
-# quickrender
-QuickRender After Effects Script
-A simple yet powerful script to streamline your rendering workflow in Adobe After Effects. Save time with composition-specific settings & one-click rendering!
+# QuickRender
 
-Features ✨
-Single-Click Rendering ▶️: Render your comp instantly with saved settings.
+A simple yet powerful script to streamline your rendering workflow in Adobe After Effects. Save time with composition-specific settings and one-click rendering!
 
-Save Settings Per Composition 💾: No more reconfiguring after each revision!
+---
 
-Quick Stills 📸: Capture TIFF stills (with alpha) at the playhead position.
+## Features ✨
 
-Template Support 🔽: Use existing output module templates.
+- **Single-Click Rendering ▶️**  
+  Render your comp instantly with saved settings.
 
-Smart UI 🖥️: Auto-resizes & remembers your output path, refreshes when window is clicked.
+- **Save Settings Per Composition 💾**  
+  No more reconfiguring after each revision!
 
-Installation 🛠️
-Windows
-Locate Scripts Folder:
-Navigate to C:\Program Files\Adobe\Adobe After Effects [Your Version]\Support Files\Scripts\ScriptUI Panels.
+- **Quick Stills 📸**  
+  Capture TIFF stills (with alpha) at the playhead position.
 
-Add Script:
-Place QuickRender.jsx (in the ScriptUI Panels subfolder).
+- **Template Support 🔽**  
+  Use existing output module templates.
 
-Restart AE:
-Find the script under Window > QuickRender.
+- **Smart UI 🖥️**  
+  Auto-resizes, remembers your output path, and refreshes when the window is clicked.
 
-macOS
-Locate Scripts Folder:
-Go to /Applications/Adobe After Effects [Your Version]/Scripts/ScriptUI Panels.
+---
 
-Add Script:
-Place QuickRender.jsx (in the ScriptUI Panels subfolder).
+## Installation 🛠️
 
-Restart AE:
-Access via Window > QuickRender.
+### Windows
 
-💡 Enable "Allow Scripts to Write Files" in AE Preferences (Edit > Preferences > Scripting & Expressions).
+1. **Locate Scripts Folder:**  
+   Navigate to:  
+   `C:\Program Files\Adobe\Adobe After Effects [Your Version]\Support Files\Scripts\ScriptUI Panels`
 
-Usage 🎮
-Set Up:
+2. **Add Script:**  
+   Place `QuickRender.jsx` in the **ScriptUI Panels** subfolder.
 
-Open your composition.
+3. **Restart AE:**  
+   Find the script under **Window > QuickRender**.
 
-Click 📂 Select Render Path to choose an output folder.
+### macOS
 
-Select a template from the dropdown.
+1. **Locate Scripts Folder:**  
+   Go to:  
+   `/Applications/Adobe After Effects [Your Version]/Scripts/ScriptUI Panels`
 
-Save Settings:
+2. **Add Script:**  
+   Place `QuickRender.jsx` in the **ScriptUI Panels** subfolder.
 
-Click 💾 Save Settings to store the template/path for this comp.
+3. **Restart AE:**  
+   Access via **Window > QuickRender**.
 
-Render:
+> 💡 **Note:** Enable "Allow Scripts to Write Files" in AE Preferences  
+> **(Edit > Preferences > Scripting & Expressions)**.
 
-Full Render: Click ▶️ Render to render using saved work area settings.
+---
 
-Still Render: Move the playhead, click 📸 Render Still at Playhead.
+## Usage 🎮
 
-Known Limitations ⚠️
-Frame numbering in filenames uses [#####] by default (see TODO in code).
+### Set Up
 
-Requires at least one output template to exist in AE.
+- Open your composition.
+- Click **📂 Select Render Path** to choose an output folder.
+- Select a template from the dropdown.
 
-Contributing & Feedback 🤝
-I welcome suggestions! Found a bug? Have a feature idea?
-Pull requests are encouraged! Let's make this tool even better together.
+### Save Settings
 
-Happy Rendering! 🚀
+- Click **💾 Save Settings** to store the template/path for this comp.
+
+### Render
+
+- **Full Render:**  
+  Click **▶️ Render** to render using saved work area settings.
+- **Still Render:**  
+  Move the playhead, then click **📸 Render Still at Playhead**.
+
+---
+
+## Known Limitations ⚠️
+
+- Frame numbering in filenames uses `[#####]` by default (see TODO in code).
+- Requires at least one output template to exist in AE.
+
+---
+
+## Contributing & Feedback 🤝
+
+I welcome suggestions! Found a bug? Have a feature idea?  
+Pull requests are encouraged—let's make this tool even better together.
+
+---
+
+**Happy Rendering! 🚀**
